@@ -1,0 +1,7 @@
+source_record_id,location_code,location_name,latitude,longitude,observed_at,vehicle_count,average_speed_kph,congestion_level
+TRF-1001,DWTN-01,Downtown Corridor,40.7128,-74.0060,2026-09-28T08:00:00+00:00,420,28.5,HIGH
+TRF-1002,DWTN-01,Downtown Corridor,40.7128,-74.0060,2026-09-28T09:00:00+00:00,460,24.0,SEVERE
+TRF-1003,UPTN-02,Uptown Avenue,40.7306,-73.9352,2026-09-28T08:00:00+00:00,280,36.2,MEDIUM
+TRF-1004,UPTN-02,Uptown Avenue,40.7306,-73.9352,2026-09-28T09:00:00+00:00,305,33.1,MEDIUM
+TRF-1005,RVRS-03,Riverside Junction,40.7001,-73.9897,2026-09-28T08:00:00+00:00,190,42.8,LOW
+TRF-1006,RVRS-03,Riverside Junction,40.7001,-73.9897,2026-09-28T09:00:00+00:00,225,38.6,MEDIUM
