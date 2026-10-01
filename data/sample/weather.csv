@@ -1,0 +1,7 @@
+source_record_id,location_code,location_name,latitude,longitude,observed_at,condition_code,condition_description,severity_level,temperature_c,precipitation_mm,wind_speed_kph,humidity_pct
+WTH-2001,DWTN-01,Downtown Corridor,40.7128,-74.0060,2026-09-28T08:00:00+00:00,CLOUDY,Overcast conditions,1,18.2,0.3,12.0,72.0
+WTH-2002,DWTN-01,Downtown Corridor,40.7128,-74.0060,2026-09-28T09:00:00+00:00,RAIN,Light rain showers,2,17.4,2.1,15.5,79.0
+WTH-2003,UPTN-02,Uptown Avenue,40.7306,-73.9352,2026-09-28T08:00:00+00:00,CLOUDY,Overcast conditions,1,18.8,0.1,10.8,69.0
+WTH-2004,UPTN-02,Uptown Avenue,40.7306,-73.9352,2026-09-28T09:00:00+00:00,RAIN,Intermittent rain,2,17.9,1.5,13.6,75.0
+WTH-2005,RVRS-03,Riverside Junction,40.7001,-73.9897,2026-09-28T08:00:00+00:00,CLEAR,Clear skies,0,19.6,0.0,9.2,61.0
+WTH-2006,RVRS-03,Riverside Junction,40.7001,-73.9897,2026-09-28T09:00:00+00:00,CLOUDY,Patchy clouds,1,19.1,0.0,10.4,64.0
