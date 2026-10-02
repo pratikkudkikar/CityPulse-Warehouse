@@ -119,3 +119,38 @@ ruff check .
 
 - This MVP is intentionally local-first and avoids cloud dependencies.
 - API adapters can be added later by plugging additional source loaders into the ingestion pipeline.
+
+## Web UI integration (React + TypeScript + Tailwind)
+
+A new UI workspace is available in `/home/runner/work/CityPulse-Warehouse/CityPulse-Warehouse/web`.
+
+### What was added
+
+- Vite React + TypeScript app.
+- Tailwind CSS via `@tailwindcss/vite`.
+- shadcn-style component structure under `src/components/ui`.
+- `gradient-bar-hero-section.tsx` at `src/components/ui/gradient-bar-hero-section.tsx`.
+- `demo.tsx` that imports from `@/components/ui/gradient-bar-hero-section`.
+- A satellite map section with state-level coordinates at `src/components/ui/state-satellite-map.tsx`.
+
+### Default paths used
+
+- Components path: `src/components/ui`
+- Global styles path: `src/index.css`
+
+`/components/ui` is important because shadcn and related examples assume a centralized UI-component folder for predictable imports and reusable design-system primitives.
+
+### Run UI locally
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+### Build UI
+
+```bash
+cd web
+npm run build
+```
