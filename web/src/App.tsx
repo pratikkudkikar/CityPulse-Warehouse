@@ -1,14 +1,14 @@
 import 'leaflet/dist/leaflet.css';
-import { DemoOne } from './demo';
-import { StateSatelliteMap } from '@/components/ui/state-satellite-map';
+import { LiveDemoPage } from './live-demo-page';
 
 function App() {
-  return (
-    <main className="bg-black text-white min-h-screen">
-      <DemoOne />
-      <StateSatelliteMap />
-    </main>
-  );
+  const path = typeof window !== 'undefined' ? window.location.pathname : '/';
+
+  if (path === '/live-demo' || path === '/live-demo/') {
+    return <LiveDemoPage />;
+  }
+
+  return <LiveDemoPage />;
 }
 
 export default App;
